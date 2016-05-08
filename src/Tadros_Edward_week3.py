@@ -39,7 +39,7 @@ def stateCountAsList(filepath, state):
     countsList=[]
     dfStateSubset = onlyOneState(filepath, state)
     df = dfStateSubset.convert_objects(convert_numeric=True)
-    countList = df['Count'].tolist()
+    #countList = df['Count'].tolist()
     for year in yearList:
         if year not in df['Year'].tolist():
             countsList.append(np.nan)
@@ -65,10 +65,10 @@ def plotCounts(filepath):
     plt.show()
 
    
-df ='United+States+Cancer+Statistics%2C+1999-2011+Incidence.txt'
-st = 'Alabama'
-#df ='All_Live_Births_In_Illinois__1989-2009.csv'
-result = plotCounts(df)
-print result
+#df ='United+States+Cancer+Statistics%2C+1999-2011+Incidence.txt'
+#st = 'Alabama'
+
+#result = plotCounts(df)
+#print result
 
 
