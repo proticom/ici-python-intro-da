@@ -1,14 +1,14 @@
 '''
 Created on Apr 29, 2016
 
-@author: Edward
+@author: Edward Tadros
 '''
 '''
 Created on Oct 13, 2015
 
 @author: williamhenry
 
-This is an example of using each function that you are assigned to code 
+This is an example of using each function that you are assigned to code
 in the week 2 homework.  Note that the expected result are in the comment
 after each function is called.
 
@@ -16,7 +16,7 @@ Note I have imported my python file, 'Henry_William_week2', where I have all
 the functions coded. I have named it according to the instructions in the
 handout. You, of course, will name it using your last and first name.
 
-Please run this file with your week 2 answer file by simply replacing 
+Please run this file with your week 2 answer file by simply replacing
 'Henry_William_week2' with the name of your file. The output should
 match the output that is in the comments below. (A comment is a line
 that starts with '#')
