@@ -1,7 +1,7 @@
 '''
 Created on Apr 29, 2016
 
-@author: Edward Tadros
+@author: Edward
 '''
 '''
 Created on Oct 13, 2015
