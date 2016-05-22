@@ -21,12 +21,12 @@ def normalizeArray(A):
         A = np.array(A)
     stdA = findSDArray(A)
     normA = A/stdA
-    return normA.tolist()
+    return normA
 
 def negativesToZero(A):
     if isNumpyArray(A)==False:
         A = np.array(A)
     A[np.nan_to_num(A)<0]=0
-    return A.tolist()
+    return A
     
     
